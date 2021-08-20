@@ -3,7 +3,7 @@ import { Text , View , TouchableOpacity ,FlatList, TextInput, StyleSheet, Keyboa
 import { ListItem } from 'react-native-elements';
 import  * as  firebase from "firebase";
 import db from "../config"
-import MyHeader from '../components/MyHeader';
+import MyHeader from './MyHeader';
 
 export default class DonateScreen extends Component{
     constructor(){
