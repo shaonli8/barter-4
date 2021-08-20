@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text , View , TouchableOpacity , TextInput, StyleSheet, KeyboardAvoidingView , Alert,Image } from 'react-native';
 import  * as  firebase from "firebase";
 import db from "../config"
-import MyHeader from '../components/MyHeader';
+import MyHeader from './MyHeader';
 
 export default class RequestScreen extends Component{
     constructor(){
