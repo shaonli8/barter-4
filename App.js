@@ -3,8 +3,8 @@ import React from 'react';
 import { StyleSheet, Text, View , TouchableOpacity } from 'react-native';
 import { createAppContainer,createSwitchNavigator } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
-import welcomeScreen from "./screens/welcomeScreen"
-import { BottomTabNavigator } from './components/BottomTabNavigator';
+import welcomeScreen from "./welcomeScreen"
+import { BottomTabNavigator } from './BottomTabNavigator';
 
 export default function App() {
   return (
